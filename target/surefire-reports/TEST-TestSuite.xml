@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="847.751" tests="16" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="ToolsQA Online Store Automation Framework (Maven_TestNG_Selenium)"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="24f760f6f8b74b83"/>
+    <property name="POM_ARTIFACTID" value="ToolsQA_OnlineStore_Automation"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_79\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="JUNIT_HOME" value="C:\Program Files\JUnit"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="ToolsQA OnlineStore Automation Framework"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\WINDOWS\TEMP"/>
+    <property name="java.runtime.version" value="1.7.0_79-b15"/>
+    <property name="ANT_HOME" value="C:\Program Files\Apache Software Foundation\apache-ant-1.9.6"/>
+    <property name="user.name" value="VAIO$"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files (x86)"/>
+    <property name="user.language" value="zh"/>
+    <property name="BUILD_DISPLAY_NAME" value="#2"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\bin"/>
+    <property name="MYSQL_HOME" value="C:\Program Files\MySQL\MySQL Server 5.7\bin"/>
+    <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
+    <property name="java.version" value="1.7.0_79"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="USERNAME" value="VAIO$"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="2"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="CN"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_79\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.3"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="configsetroot" value="C:\WINDOWS\ConfigSetRoot"/>
+    <property name="TMP" value="C:\WINDOWS\TEMP"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="24.79-b02"/>
+    <property name="user.variant" value=""/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.7.0_79"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="SERVICE_ID" value="jenkins"/>
+    <property name="COMPUTERNAME" value="VAIO"/>
+    <property name="user.script" value=""/>
+    <property name="POM_GROUPID" value="ToolsQA_OnlineStore_Automation"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="user.home" value="C:\"/>
+    <property name="BUILD_TAG" value="jenkins-ToolsQA Online Store Automation Framework (Maven_TestNG_Selenium)-2"/>
+    <property name="JENKINS_SERVER_COOKIE" value="24f760f6f8b74b83"/>
+    <property name="HUDSON_URL" value="http://localhost:8888/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Maven\apache-maven-3.3.9/bin;C:\Program Files\Java\jdk1.7.0_79/bin;C:\Program Files\Java\jdk1.7.0_79/bin;.;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Apache Software Foundation\apache-ant-1.9.6\bin;D:\oraclexe\app\oracle\product\11.2.0\server\bin;;D:\app\Taylor\product\12.1.0\dbhome_1\bin;C:\PROGRAM FILES\BROADCOM\BROADCOM 802.11 NETWORK ADAPTER;;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\WINDOWS\SYSTEM32;C:\WINDOWS;C:\WINDOWS\SYSTEM32\WBEM;C:\WINDOWS\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES\SONY\VAIO IMPROVEMENT;C:\PROGRAM FILES (X86)\SONY\VAIO BIOS DATA TRANSFER UTILITY\;C:\PROGRAM FILES (X86)\SONY\VAIO STARTUP SETTING TOOL;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Program Files\Maven\apache-maven-3.3.9"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-agent-1.5.jar;C:\Program Files\Maven\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\Maven\apache-maven-3.3.9/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\Program Files\Maven\apache-maven-3.3.9 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-2.53.2.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 63056"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.7.0_79/bin;.;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Apache Software Foundation\apache-ant-1.9.6\bin;D:\oraclexe\app\oracle\product\11.2.0\server\bin;;D:\app\Taylor\product\12.1.0\dbhome_1\bin;C:\PROGRAM FILES\BROADCOM\BROADCOM 802.11 NETWORK ADAPTER;;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\WINDOWS\SYSTEM32;C:\WINDOWS;C:\WINDOWS\SYSTEM32\WBEM;C:\WINDOWS\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES\SONY\VAIO IMPROVEMENT;C:\PROGRAM FILES (X86)\SONY\VAIO BIOS DATA TRANSFER UTILITY\;C:\PROGRAM FILES (X86)\SONY\VAIO STARTUP SETTING TOOL;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.7.0_79/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 69 Stepping 1, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Program Files\Maven\apache-maven-3.3.9"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Program Files\Maven\apache-maven-3.3.9/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8888/job/ToolsQA%20Online%20Store%20Automation%20Framework%20(Maven_TestNG_Selenium)/2/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="D:\Documents\workspace\selenium\ToolsQA_OnlineStore_Automation"/>
+    <property name="JOB_URL" value="http://localhost:8888/job/ToolsQA%20Online%20Store%20Automation%20Framework%20(Maven_TestNG_Selenium)/"/>
+    <property name="USERDOMAIN" value="WORKGROUP"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="C:\Program Files\Maven\apache-maven-3.3.9"/>
+    <property name="VS100COMNTOOLS" value="d:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="2"/>
+    <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="JENKINS_URL" value="http://localhost:8888/"/>
+    <property name="PROCESSOR_REVISION" value="4501"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar"/>
+    <property name="WORKSPACE" value="D:\Documents\workspace\selenium\ToolsQA_OnlineStore_Automation"/>
+    <property name="maven3.interceptor.common" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar"/>
+    <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\"/>
+  </properties>
+  <testcase name="testCase003_MainPageElements" classname="executionScript.TestCase003_MainPageElements" time="47.185">
+    <failure message="expected [Accessories] but found []" type="java.lang.AssertionError">java.lang.AssertionError: expected [Accessories] but found []
+	at executionScript.TestCase003_MainPageElements.testCase003_MainPageElements(TestCase003_MainPageElements.java:17)
+</failure>
+    <system-out><![CDATA[TestCase003_MainPageElements:
+-----------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testCase004_BrowseAccessoriesListView" classname="executionScript.TestCase004_BrowseAccessories" time="136.928">
+    <failure message="Timed out after 15 seconds waiting for visibility of [[FirefoxDriver: firefox on WINDOWS (21e01337-ad70-46bb-a555-44c3955c014b)] -&gt; class name: pp_previous]&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;VAIO&apos;, ip: &apos;192.168.1.68&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;&#10;Session ID: 21e01337-ad70-46bb-a555-44c3955c014b&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0.2}]" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Timed out after 15 seconds waiting for visibility of [[FirefoxDriver: firefox on WINDOWS (21e01337-ad70-46bb-a555-44c3955c014b)] -> class name: pp_previous]
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'VAIO', ip: '192.168.1.68', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Session ID: 21e01337-ad70-46bb-a555-44c3955c014b
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0.2}]
+	at executionScript.TestCase004_BrowseAccessories.testCase004_BrowseAccessoriesListView(TestCase004_BrowseAccessories.java:20)
+</failure>
+    <system-out><![CDATA[TestCase004_BrowseAccessoriesListView:
+-----------------------------------------------------
+The value of CellData Magic Mouse
+The value of CellData Apple TV
+The value of CellData Sennheiser RS 120
+The value of CellData Skullcandy PLYR 1 – Black
+The value of CellData Apple 27 inch Thunderbolt Display
+The value of CellData Asus MX239H 23-inch Widescreen AH
+The value of CellData $150.00
+The value of CellData $80.00
+The value of CellData $50.00
+The value of CellData $110.00
+The value of CellData $764.00
+The value of CellData $199.00
+]]></system-out>
+  </testcase>
+  <testcase name="testCase004_BrowseAccessoriesGridView" classname="executionScript.TestCase004_BrowseAccessories" time="44.865"/>
+  <testcase name="testCase005_BrowseiMacsListView" classname="executionScript.TestCase005_BrowseiMacs" time="42.679"/>
+  <testcase name="testCase005_BrowseiMacsGridView" classname="executionScript.TestCase005_BrowseiMacs" time="21.02"/>
+  <testcase name="testCase006_BrowseiPadsListView" classname="executionScript.TestCase006_BrowseiPads" time="105.247">
+    <failure message="Timed out after 15 seconds waiting for visibility of [[FirefoxDriver: firefox on WINDOWS (de97a08b-7d09-4584-834e-7312ea816635)] -&gt; class name: pp_previous]&#10;Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;&#10;System info: host: &apos;VAIO&apos;, ip: &apos;192.168.1.68&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;&#10;Session ID: de97a08b-7d09-4584-834e-7312ea816635&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0.2}]" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Timed out after 15 seconds waiting for visibility of [[FirefoxDriver: firefox on WINDOWS (de97a08b-7d09-4584-834e-7312ea816635)] -> class name: pp_previous]
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'VAIO', ip: '192.168.1.68', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Session ID: de97a08b-7d09-4584-834e-7312ea816635
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0.2}]
+	at executionScript.TestCase006_BrowseiPads.testCase006_BrowseiPadsListView(TestCase006_BrowseiPads.java:20)
+</failure>
+    <system-out><![CDATA[TestCase006_BrowseiPadsListView:
+-----------------------------------------------------
+The value of CellData Magic Mouse
+The value of CellData Apple iPad 2 16GB, Wi-Fi, 9.7in – Black
+The value of CellData Apple iPad 6 32GB (White, 3D)
+The value of CellData $150.00
+The value of CellData $270.00
+The value of CellData $680.00
+]]></system-out>
+  </testcase>
+  <testcase name="testCase006_BrowseiPadsGridView" classname="executionScript.TestCase006_BrowseiPads" time="31.552"/>
+  <testcase name="testCase007_BrowseiPhonesListView" classname="executionScript.TestCase007_BrowseiPhones" time="76.397"/>
+  <testcase name="testCase007_BrowseiPhonesGridView" classname="executionScript.TestCase007_BrowseiPhones" time="25.795"/>
+  <testcase name="testCase008_BrowseiPodsListView" classname="executionScript.TestCase008_BrowseiPods" time="45.412"/>
+  <testcase name="testCase008_BrowseiPodsGridView" classname="executionScript.TestCase008_BrowseiPods" time="35.55"/>
+  <testcase name="testCase009_BrowseMacBooksListView" classname="executionScript.TestCase009_BrowseMacBooks" time="49.457"/>
+  <testcase name="testCase009_BrowseMacBooksGridView" classname="executionScript.TestCase009_BrowseMacBooks" time="25.731"/>
+  <testcase name="testCase010_BuyOneProduct" classname="executionScript.TestCase010_BuyOneProduct" time="27.382"/>
+  <testcase name="testCase011_BuySeveralProducts" classname="executionScript.TestCase011_BuySeveralProducts" time="52.892"/>
+  <testcase name="testCase012_BuyAllProducts" classname="executionScript.TestCase012_BuyAllProducts" time="78.53"/>
+</testsuite>

@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 847.751 sec <<< FAILURE! - in TestSuite
+testCase003_MainPageElements(executionScript.TestCase003_MainPageElements)  Time elapsed: 47.185 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Accessories] but found []
+	at executionScript.TestCase003_MainPageElements.testCase003_MainPageElements(TestCase003_MainPageElements.java:17)
+
+testCase004_BrowseAccessoriesListView(executionScript.TestCase004_BrowseAccessories)  Time elapsed: 136.928 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Timed out after 15 seconds waiting for visibility of [[FirefoxDriver: firefox on WINDOWS (21e01337-ad70-46bb-a555-44c3955c014b)] -> class name: pp_previous]
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'VAIO', ip: '192.168.1.68', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Session ID: 21e01337-ad70-46bb-a555-44c3955c014b
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0.2}]
+	at executionScript.TestCase004_BrowseAccessories.testCase004_BrowseAccessoriesListView(TestCase004_BrowseAccessories.java:20)
+
+testCase006_BrowseiPadsListView(executionScript.TestCase006_BrowseiPads)  Time elapsed: 105.247 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Timed out after 15 seconds waiting for visibility of [[FirefoxDriver: firefox on WINDOWS (de97a08b-7d09-4584-834e-7312ea816635)] -> class name: pp_previous]
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'VAIO', ip: '192.168.1.68', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Session ID: de97a08b-7d09-4584-834e-7312ea816635
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0.2}]
+	at executionScript.TestCase006_BrowseiPads.testCase006_BrowseiPadsListView(TestCase006_BrowseiPads.java:20)
+

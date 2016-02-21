@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Test_Suite">
+              <span class="suite-name border-failed">Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Test_Suite">
+                    <span>D:\Documents\workspace\selenium\ToolsQA_OnlineStore_Automation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Test_Suite">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Test_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods, 3 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Test_Suite" class="hide-methods failed suite-Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Test_Suite -->
+                      <a href="#" panel-name="suite-Test_Suite" class="show-methods failed suite-Test_Suite"> (show)</a> <!-- show-methods failed suite-Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Test_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="executionScript.TestCase003_MainPageElements" hash-for-method="testCase003_MainPageElements">testCase003_MainPageElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="executionScript.TestCase004_BrowseAccessories" hash-for-method="testCase004_BrowseAccessoriesListView">testCase004_BrowseAccessoriesListView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="executionScript.TestCase006_BrowseiPads" hash-for-method="testCase006_BrowseiPadsListView">testCase006_BrowseiPadsListView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Test_Suite" class="hide-methods passed suite-Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Test_Suite -->
+                      <a href="#" panel-name="suite-Test_Suite" class="show-methods passed suite-Test_Suite"> (show)</a> <!-- show-methods passed suite-Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="executionScript.TestCase004_BrowseAccessories" hash-for-method="testCase004_BrowseAccessoriesGridView">testCase004_BrowseAccessoriesGridView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="executionScript.TestCase005_BrowseiMacs" hash-for-method="testCase005_BrowseiMacsGridView">testCase005_BrowseiMacsGridView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="executionScript.TestCase005_BrowseiMacs" hash-for-method="testCase005_BrowseiMacsListView">testCase005_BrowseiMacsListView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="executionScript.TestCase006_BrowseiPads" hash-for-method="testCase006_BrowseiPadsGridView">testCase006_BrowseiPadsGridView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="executionScript.TestCase007_BrowseiPhones" hash-for-method="testCase007_BrowseiPhonesGridView">testCase007_BrowseiPhonesGridView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="executionScript.TestCase007_BrowseiPhones" hash-for-method="testCase007_BrowseiPhonesListView">testCase007_BrowseiPhonesListView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="executionScript.TestCase008_BrowseiPods" hash-for-method="testCase008_BrowseiPodsGridView">testCase008_BrowseiPodsGridView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="executionScript.TestCase008_BrowseiPods" hash-for-method="testCase008_BrowseiPodsListView">testCase008_BrowseiPodsListView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="executionScript.TestCase009_BrowseMacBooks" hash-for-method="testCase009_BrowseMacBooksGridView">testCase009_BrowseMacBooksGridView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="executionScript.TestCase009_BrowseMacBooks" hash-for-method="testCase009_BrowseMacBooksListView">testCase009_BrowseMacBooksListView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="executionScript.TestCase010_BuyOneProduct" hash-for-method="testCase010_BuyOneProduct">testCase010_BuyOneProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="executionScript.TestCase011_BuySeveralProducts" hash-for-method="testCase011_BuySeveralProducts">testCase011_BuySeveralProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="executionScript.TestCase012_BuyAllProducts" hash-for-method="testCase012_BuyAllProducts">testCase012_BuyAllProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test_Suite" class="panel Test_Suite">
+          <div class="suite-Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">executionScript.TestCase003_MainPageElements</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase003_MainPageElements">
+                  </a> <!-- testCase003_MainPageElements -->
+                  <span class="method-name">testCase003_MainPageElements</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Accessories] but found []
+	at executionAction.MainPage_Action.assertMainPageNavBarElements(MainPage_Action.java:55)
+	at executionScript.TestCase003_MainPageElements.testCase003_MainPageElements(TestCase003_MainPageElements.java:17)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-failed -->
+          <div class="suite-Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">executionScript.TestCase004_BrowseAccessories</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase004_BrowseAccessoriesListView">
+                  </a> <!-- testCase004_BrowseAccessoriesListView -->
+                  <span class="method-name">testCase004_BrowseAccessoriesListView</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Timed out after 15 seconds waiting for visibility of [[FirefoxDriver: firefox on WINDOWS (21e01337-ad70-46bb-a555-44c3955c014b)] -&gt; class name: pp_previous]
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;VAIO&apos;, ip: &apos;192.168.1.68&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
+Session ID: 21e01337-ad70-46bb-a555-44c3955c014b
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0.2}]
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at executionAction.AccessoriesPageListView_Action.viewProductImage(AccessoriesPageListView_Action.java:88)
+	at executionScript.TestCase004_BrowseAccessories.testCase004_BrowseAccessoriesListView(TestCase004_BrowseAccessories.java:20)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-failed -->
+          <div class="suite-Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">executionScript.TestCase006_BrowseiPads</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase006_BrowseiPadsListView">
+                  </a> <!-- testCase006_BrowseiPadsListView -->
+                  <span class="method-name">testCase006_BrowseiPadsListView</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Timed out after 15 seconds waiting for visibility of [[FirefoxDriver: firefox on WINDOWS (de97a08b-7d09-4584-834e-7312ea816635)] -&gt; class name: pp_previous]
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;VAIO&apos;, ip: &apos;192.168.1.68&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
+Session ID: de97a08b-7d09-4584-834e-7312ea816635
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0.2}]
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at executionAction.iPadsPageListView_Action.viewProductImage(iPadsPageListView_Action.java:86)
+	at executionScript.TestCase006_BrowseiPads.testCase006_BrowseiPadsListView(TestCase006_BrowseiPads.java:20)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-failed -->
+          <div class="suite-Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">executionScript.TestCase011_BuySeveralProducts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase011_BuySeveralProducts">
+                  </a> <!-- testCase011_BuySeveralProducts -->
+                  <span class="method-name">testCase011_BuySeveralProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-passed -->
+          <div class="suite-Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">executionScript.TestCase007_BrowseiPhones</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase007_BrowseiPhonesGridView">
+                  </a> <!-- testCase007_BrowseiPhonesGridView -->
+                  <span class="method-name">testCase007_BrowseiPhonesGridView</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase007_BrowseiPhonesListView">
+                  </a> <!-- testCase007_BrowseiPhonesListView -->
+                  <span class="method-name">testCase007_BrowseiPhonesListView</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-passed -->
+          <div class="suite-Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">executionScript.TestCase012_BuyAllProducts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase012_BuyAllProducts">
+                  </a> <!-- testCase012_BuyAllProducts -->
+                  <span class="method-name">testCase012_BuyAllProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-passed -->
+          <div class="suite-Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">executionScript.TestCase010_BuyOneProduct</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase010_BuyOneProduct">
+                  </a> <!-- testCase010_BuyOneProduct -->
+                  <span class="method-name">testCase010_BuyOneProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-passed -->
+          <div class="suite-Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">executionScript.TestCase004_BrowseAccessories</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase004_BrowseAccessoriesGridView">
+                  </a> <!-- testCase004_BrowseAccessoriesGridView -->
+                  <span class="method-name">testCase004_BrowseAccessoriesGridView</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-passed -->
+          <div class="suite-Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">executionScript.TestCase009_BrowseMacBooks</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase009_BrowseMacBooksGridView">
+                  </a> <!-- testCase009_BrowseMacBooksGridView -->
+                  <span class="method-name">testCase009_BrowseMacBooksGridView</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase009_BrowseMacBooksListView">
+                  </a> <!-- testCase009_BrowseMacBooksListView -->
+                  <span class="method-name">testCase009_BrowseMacBooksListView</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-passed -->
+          <div class="suite-Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">executionScript.TestCase005_BrowseiMacs</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase005_BrowseiMacsGridView">
+                  </a> <!-- testCase005_BrowseiMacsGridView -->
+                  <span class="method-name">testCase005_BrowseiMacsGridView</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase005_BrowseiMacsListView">
+                  </a> <!-- testCase005_BrowseiMacsListView -->
+                  <span class="method-name">testCase005_BrowseiMacsListView</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-passed -->
+          <div class="suite-Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">executionScript.TestCase008_BrowseiPods</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase008_BrowseiPodsGridView">
+                  </a> <!-- testCase008_BrowseiPodsGridView -->
+                  <span class="method-name">testCase008_BrowseiPodsGridView</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase008_BrowseiPodsListView">
+                  </a> <!-- testCase008_BrowseiPodsListView -->
+                  <span class="method-name">testCase008_BrowseiPodsListView</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-passed -->
+          <div class="suite-Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">executionScript.TestCase006_BrowseiPads</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase006_BrowseiPadsGridView">
+                  </a> <!-- testCase006_BrowseiPadsGridView -->
+                  <span class="method-name">testCase006_BrowseiPadsGridView</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-passed -->
+        </div> <!-- panel Test_Suite -->
+        <div panel-name="test-xml-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Documents\workspace\selenium\ToolsQA_OnlineStore_Automation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Test Suite&quot;&gt;
+  &lt;test name=&quot;Main Page&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;executionScript.TestCase003_MainPageElements&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Main Page --&gt;
+  &lt;test name=&quot;Browse Products&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;executionScript.TestCase004_BrowseAccessories&quot;/&gt;
+      &lt;class name=&quot;executionScript.TestCase005_BrowseiMacs&quot;/&gt;
+      &lt;class name=&quot;executionScript.TestCase006_BrowseiPads&quot;/&gt;
+      &lt;class name=&quot;executionScript.TestCase007_BrowseiPhones&quot;/&gt;
+      &lt;class name=&quot;executionScript.TestCase008_BrowseiPods&quot;/&gt;
+      &lt;class name=&quot;executionScript.TestCase009_BrowseMacBooks&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Browse Products --&gt;
+  &lt;test name=&quot;Add to Carts&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;executionScript.TestCase010_BuyOneProduct&quot;/&gt;
+      &lt;class name=&quot;executionScript.TestCase011_BuySeveralProducts&quot;/&gt;
+      &lt;class name=&quot;executionScript.TestCase012_BuyAllProducts&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Add to Carts --&gt;
+&lt;/suite&gt; &lt;!-- Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Main Page (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Browse Products (6 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Add to Carts (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test_Suite');
+function tableData_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testCase004_BrowseAccessoriesListView')
+data.setCell(0, 2, 'executionScript.TestCase004_BrowseAccessories')
+data.setCell(0, 3, 136921);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testCase006_BrowseiPadsListView')
+data.setCell(1, 2, 'executionScript.TestCase006_BrowseiPads')
+data.setCell(1, 3, 105246);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testCase012_BuyAllProducts')
+data.setCell(2, 2, 'executionScript.TestCase012_BuyAllProducts')
+data.setCell(2, 3, 78528);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCase007_BrowseiPhonesListView')
+data.setCell(3, 2, 'executionScript.TestCase007_BrowseiPhones')
+data.setCell(3, 3, 76396);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testCase011_BuySeveralProducts')
+data.setCell(4, 2, 'executionScript.TestCase011_BuySeveralProducts')
+data.setCell(4, 3, 52892);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testCase009_BrowseMacBooksListView')
+data.setCell(5, 2, 'executionScript.TestCase009_BrowseMacBooks')
+data.setCell(5, 3, 49456);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testCase003_MainPageElements')
+data.setCell(6, 2, 'executionScript.TestCase003_MainPageElements')
+data.setCell(6, 3, 47171);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testCase008_BrowseiPodsListView')
+data.setCell(7, 2, 'executionScript.TestCase008_BrowseiPods')
+data.setCell(7, 3, 45411);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testCase004_BrowseAccessoriesGridView')
+data.setCell(8, 2, 'executionScript.TestCase004_BrowseAccessories')
+data.setCell(8, 3, 44865);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testCase005_BrowseiMacsListView')
+data.setCell(9, 2, 'executionScript.TestCase005_BrowseiMacs')
+data.setCell(9, 3, 42678);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testCase008_BrowseiPodsGridView')
+data.setCell(10, 2, 'executionScript.TestCase008_BrowseiPods')
+data.setCell(10, 3, 35549);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testCase006_BrowseiPadsGridView')
+data.setCell(11, 2, 'executionScript.TestCase006_BrowseiPads')
+data.setCell(11, 3, 31552);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testCase010_BuyOneProduct')
+data.setCell(12, 2, 'executionScript.TestCase010_BuyOneProduct')
+data.setCell(12, 3, 27381);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testCase007_BrowseiPhonesGridView')
+data.setCell(13, 2, 'executionScript.TestCase007_BrowseiPhones')
+data.setCell(13, 3, 25794);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testCase009_BrowseMacBooksGridView')
+data.setCell(14, 2, 'executionScript.TestCase009_BrowseMacBooks')
+data.setCell(14, 3, 25731);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testCase005_BrowseiMacsGridView')
+data.setCell(15, 2, 'executionScript.TestCase005_BrowseiMacs')
+data.setCell(15, 3, 21017);
+window.suiteTableData['Test_Suite']= { tableData: data, tableDiv: 'times-div-Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 14 minutes</span>
+              <div id="times-div-Test_Suite">
+              </div> <!-- times-div-Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">executionScript.TestCase003_MainPageElements</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCase003_MainPageElements</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">executionScript.TestCase004_BrowseAccessories</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCase004_BrowseAccessoriesListView</span>
+                <span class="method-start">47372 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase004_BrowseAccessoriesGridView</span>
+                <span class="method-start">184299 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">executionScript.TestCase005_BrowseiMacs</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCase005_BrowseiMacsListView</span>
+                <span class="method-start">229165 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase005_BrowseiMacsGridView</span>
+                <span class="method-start">271845 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">executionScript.TestCase006_BrowseiPads</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCase006_BrowseiPadsListView</span>
+                <span class="method-start">292865 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase006_BrowseiPadsGridView</span>
+                <span class="method-start">398113 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">executionScript.TestCase007_BrowseiPhones</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCase007_BrowseiPhonesListView</span>
+                <span class="method-start">429666 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase007_BrowseiPhonesGridView</span>
+                <span class="method-start">506064 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">executionScript.TestCase008_BrowseiPods</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCase008_BrowseiPodsListView</span>
+                <span class="method-start">531860 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase008_BrowseiPodsGridView</span>
+                <span class="method-start">577272 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">executionScript.TestCase009_BrowseMacBooks</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCase009_BrowseMacBooksListView</span>
+                <span class="method-start">612823 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCase009_BrowseMacBooksGridView</span>
+                <span class="method-start">662280 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">executionScript.TestCase010_BuyOneProduct</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCase010_BuyOneProduct</span>
+                <span class="method-start">688026 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">executionScript.TestCase011_BuySeveralProducts</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCase011_BuySeveralProducts</span>
+                <span class="method-start">715409 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">executionScript.TestCase012_BuyAllProducts</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCase012_BuyAllProducts</span>
+                <span class="method-start">768302 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

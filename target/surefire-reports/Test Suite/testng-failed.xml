@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Test Suite]">
+  <test name="Main Page">
+    <classes>
+      <class name="executionScript.TestCase003_MainPageElements"/>
+    </classes>
+  </test> <!-- Main Page -->
+  <test name="Browse Products">
+    <classes>
+      <class name="executionScript.TestCase004_BrowseAccessories"/>
+      <class name="executionScript.TestCase005_BrowseiMacs"/>
+      <class name="executionScript.TestCase006_BrowseiPads"/>
+      <class name="executionScript.TestCase007_BrowseiPhones"/>
+      <class name="executionScript.TestCase008_BrowseiPods"/>
+      <class name="executionScript.TestCase009_BrowseMacBooks"/>
+    </classes>
+  </test> <!-- Browse Products -->
+  <test name="Add to Carts">
+    <classes>
+      <class name="executionScript.TestCase010_BuyOneProduct"/>
+      <class name="executionScript.TestCase011_BuySeveralProducts"/>
+      <class name="executionScript.TestCase012_BuyAllProducts"/>
+    </classes>
+  </test> <!-- Add to Carts -->
+  <test name="Main Page(failed)">
+    <classes>
+      <class name="executionScript.TestCase003_MainPageElements">
+        <methods>
+          <include name="testCase003_MainPageElements"/>
+        </methods>
+      </class> <!-- executionScript.TestCase003_MainPageElements -->
+    </classes>
+  </test> <!-- Main Page(failed) -->
+  <test name="Browse Products(failed)">
+    <classes>
+      <class name="executionScript.TestCase004_BrowseAccessories">
+        <methods>
+          <include name="testCase004_BrowseAccessoriesListView"/>
+        </methods>
+      </class> <!-- executionScript.TestCase004_BrowseAccessories -->
+      <class name="executionScript.TestCase006_BrowseiPads">
+        <methods>
+          <include name="testCase006_BrowseiPadsListView"/>
+        </methods>
+      </class> <!-- executionScript.TestCase006_BrowseiPads -->
+    </classes>
+  </test> <!-- Browse Products(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->
